@@ -1,7 +1,7 @@
 # Проект «Большое путешествие»
 
-* Студент: [Неопознанный енот](https://up.htmlacademy.ru/ecmascript/22/user/2396657).
-* Наставник: `Неизвестно`.
+* Студент: [Marina Menschikova](https://up.htmlacademy.ru/ecmascript/22/user/2396657).
+* Наставник: `Вячеслав Луханин`.
 
 ---
 
