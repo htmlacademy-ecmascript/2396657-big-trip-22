@@ -1,8 +1,8 @@
-import DestinationListView from "../view/destination-list-view.js";
-import EditFormView from "../view/edit-view-form.js";
-import { render } from "../render.js";
-import DestinationPointView from "../view/destination-point-view.js";
-import CreationFormView from "../view/creation-form-view.js";
+import DestinationListView from '../view/destination-list-view.js';
+import EditFormView from '../view/edit-view-form.js';
+import { render } from '../render.js';
+import DestinationPointView from '../view/destination-point-view.js';
+import CreationFormView from '../view/creation-form-view.js';
 
 export default class BoardPresenter {
   listComponent = new DestinationListView();
