@@ -1,4 +1,4 @@
-import { getRandomArrayElement } from "../utils";
+import { getRandomArrayElement } from '../utils';
 
 const mockWaypoints = [
   {
@@ -34,10 +34,10 @@ const mockWaypoints = [
     isFavorite: false
 
   }
-]
+];
 
 function getRandomWaypoint() {
   return getRandomArrayElement(mockWaypoints);
-};
+}
 
 export {getRandomWaypoint};

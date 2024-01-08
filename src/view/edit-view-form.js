@@ -8,7 +8,7 @@ function createEventTypeTemplate(type) {
     <input id="event-type-${type}-1" class="event__type-input  visually-hidden" type="radio" name="event-type" value=${type}>
     <label class="event__type-label  event__type-label--${type}" for="event-type-${type}-1">${type}</label>
     </div>`
-  )
+  );
 }
 
 function createDestinationDescriptionTemplate(destination) {
@@ -41,7 +41,7 @@ function createPhotoContainerTemplate(photos) {
 
 function createPhotoTemplate(photo) {
   const {src, description} = photo;
-  return (`<img class="event__photo src=${src} alt=${description}">`)
+  return (`<img class="event__photo src=${src} alt=${description}">`);
 }
 
 function createOfferTemplate(offer, checkedOffers) {
@@ -73,6 +73,7 @@ function createOfferListTemplate({offers}, checkedOffers) {
   }
   return ('');
 }
+
 function createEditFormTemplate(point, offers, checkedOffers, destination) {
   const {type, dateFrom, dateTo, price} = point;
   const {name} = destination;

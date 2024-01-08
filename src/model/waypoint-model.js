@@ -1,6 +1,6 @@
-import { getRandomWaypoint } from "../mock/waypoint"
-import { mockOffers } from "../mock/offers";
-import { mockDestinations } from "../mock/destinations";
+import { getRandomWaypoint } from '../mock/waypoint';
+import { mockOffers } from '../mock/offers';
+import { mockDestinations } from '../mock/destinations';
 
 const WAYPOINTS_COUNT = 3;
 
@@ -19,7 +19,7 @@ export default class WaypointsModel {
 
   getOfferByType(type) {
     const allOffers = this.getOffers();
-    return allOffers.find(offer => offer.type === type);
+    return allOffers.find((offer) => offer.type === type);
   }
 
   getOfferById(type, itemsId) {
@@ -36,5 +36,5 @@ export default class WaypointsModel {
     const allDestinations = this.getDestination();
     return allDestinations.find((destination) => destination.id === id);
   }
-};
+}
 
