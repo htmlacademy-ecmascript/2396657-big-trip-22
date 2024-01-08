@@ -19,12 +19,12 @@
     "webpack": "5.79.0",
     "webpack-cli": "5.0.1",
     "webpack-dev-server": "4.15.1"
-
   },
   "engines": {
     "node": "20"
   },
   "dependencies": {
+    "dayjs": "^1.11.10",
     "node": "20"
   },
   "browserslist": [
